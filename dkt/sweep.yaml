@@ -4,9 +4,20 @@ metric:
   name: valid_auc
   goal: maximize
 parameters:
+  file_name: 
+    value: "FE_total_data.csv"
   lr:
-    min: 0.001
+    min: 0.0001
     max: 0.01
   optimizer:
-    values: ["adam", "sgd"]
+    values: ["adam"]
+  max_seq_len:
+    values: [10, 20, 40, 80, 160]
+  hidden_dim:
+    values: [64, 128, 256, 512, 1024]
+  patience:
+    values: [5, 10, 15]
+  n_heads:
+    values: [1, 2, 4]
+
   
