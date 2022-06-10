@@ -1,5 +1,7 @@
 # Ensemble Methods
 
+![image](https://user-images.githubusercontent.com/91870042/173057140-62c81256-1ada-40fd-925d-f3265b8eb951.png)
+
 ## 1. Ensemble by average
 
 여러개의 제출 파일에 대해서 확률의 평균을 계산하는 방법
@@ -7,7 +9,7 @@
 ## 2. Hard soft ensemble
 
 문제를 맞출 확률 절반 50%를 기준으로 잘라서 더 많은 쪽의 확률에 대해 평균을 계산하는 방법
-![hard soft ensemble image](./ensemble.png)
+
 
 ## Directory architecture
 
